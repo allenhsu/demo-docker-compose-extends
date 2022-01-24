@@ -1,0 +1,5 @@
+services:
+  test1:
+    image: 'alpine:latest'
+    volumes:
+      - './test:/mnt/test1'

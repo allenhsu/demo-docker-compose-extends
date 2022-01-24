@@ -1,0 +1,5 @@
+services:
+  template:
+    image: 'alpine:latest'
+    volumes:
+      - './test:/mnt/test_template'
